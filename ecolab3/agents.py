@@ -199,5 +199,3 @@ class Fox(Agent):
         if self.food<=0: return True
         if self.age>self.maxage: return True
         return False
-    
-    
